@@ -5,7 +5,7 @@ from tensorflow.keras.models import load_model
 import imutils
 
 # Load your trained model
-newmodel = load_model('BTD_model.h5')  # Replace with your model path
+newmodel = load_model('BTD_model')  # Replace with your model path
 
 # Preprocessing functions (crop_imgs and preprocess_imgs) remain the same
 def getpred(img):
