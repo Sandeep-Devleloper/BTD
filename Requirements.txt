@@ -7,4 +7,4 @@ imutils
 matplotlib 
 seaborn 
 plotly
-   
+tensorflow
